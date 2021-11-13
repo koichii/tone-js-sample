@@ -3,20 +3,22 @@
 <html lang="ja">
 <head>
 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Tone.jsサンプル</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.26/Tone.min.js"></script>
+	<script src="script.js"></script>
 </head>
 <body>
     <h1>Tone.jsサンプル</h1>
     <div>
         <img src="image0.jpg">
     </div>
-    <button onclick="pon();">ポン</button>    
-    <button onclick="doremi();">ドレミファソラシド</button>    
-    <button onclick="waon();">和音</button>    
-    <button onclick="melody();">メロディ</button>    
-    
-	<script src="script.js"></script>
+    <button type="button" class="btn btn-primary" onclick="pon();">ポン</button>
+    <button onclick="doremi();">ドレミファソラシド</button>
+    <button onclick="waon();">和音</button>
+    <button onclick="melody();">メロディ</button>
 
 </body>
 </html>
